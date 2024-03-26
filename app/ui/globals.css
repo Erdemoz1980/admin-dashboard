@@ -1,0 +1,23 @@
+:root{
+  --clrBg:#151c2c;
+  --clrBgSoft:#182237;
+  --clrText:#fff;
+  --clrTextSoft:#b7bac1;
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: var(--clrBg);
+  color:var(--clrText);
+}
+
+a{
+  color:inherit;
+  text-decoration: none;
+}
