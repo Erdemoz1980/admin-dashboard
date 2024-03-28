@@ -9,7 +9,7 @@ const ProductsPage = () => {
     <div className={styles.container}>
     <div className={styles.top}>
       <Search placeholder='Search products...' />
-      <Link href='/dashboard/products/add'>
+      <Link href='/dashboard/products/test'>
         <button className={styles.addButton}>Add New</button>
       </Link>
       
@@ -39,7 +39,7 @@ const ProductsPage = () => {
           <td>27.03.2024</td>
           <td>14</td>
           <td className={styles.buttons}>
-            <Link href='/'>
+            <Link href='/dashboard/products/test'>
               <button className={`${styles.button} ${styles.view}`}>View</button>
             </Link>
             <Link href='/'>
