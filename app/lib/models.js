@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 const userSchema = new mongoose.Schema({
-  userName: {
+  username: {
     type: String,
     required: true,
     unique: true,
@@ -35,7 +35,7 @@ const userSchema = new mongoose.Schema({
   },
   address: {
     type: String
-  }
+  },
 }, {
   timestamps: true
 });
@@ -68,7 +68,7 @@ const productSchema = new mongoose.Schema({
   },
   size: {
     type: String
-  }
+  },
 }, {
   timestamps: true
 });

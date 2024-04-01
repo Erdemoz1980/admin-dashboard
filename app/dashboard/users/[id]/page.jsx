@@ -3,8 +3,9 @@ import { useParams } from "next/navigation";
 import Image from 'next/image';
 import styles from '../../../ui/dashboard/users/singleUser/singleUser.module.css';
 
+
 const SingleUserPage = () => {
-  const {id} = useParams();
+
 
   return (
     <div className={styles.container}>
@@ -16,9 +17,9 @@ const SingleUserPage = () => {
       </section>
       <section className={styles.formContainer}>
         <form action="" className={styles.form}>
-        <label htmlFor="username">Username</label>
+          <label htmlFor="username">User Name</label>
         <input type="text" name="username" id="username" placeholder="Erdem Oz" />
-        <label htmlFor="email">Email</label>
+          <label htmlFor="email">Email</label>
         <input type="text" name="email" id="email" placeholder="email" />
         <label htmlFor="password">Password</label>
         <input type="password" name="password" id="password" placeholder="password" />
